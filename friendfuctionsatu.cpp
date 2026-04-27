@@ -18,5 +18,6 @@ void setnama(mahasiswa &a, string b)
 
 int main(){
     mahasiswa joko;
+    setnama(joko, "kairi kumar");
     return 0;
 }
