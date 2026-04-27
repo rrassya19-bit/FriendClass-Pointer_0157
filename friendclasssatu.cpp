@@ -21,3 +21,7 @@ public:
     void setid(int pid);
     void displayAll(Orang &a);
 };
+
+void Siswa::displayAll(Orang &a) {
+    cout << id << endl << a.nama << endl;
+}
