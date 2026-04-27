@@ -25,3 +25,7 @@ public:
 void Siswa::displayAll(Orang &a) {
     cout << id << endl << a.nama << endl;
 }
+
+void Orang::Setnama(string pnama) {
+    nama = pnama;
+}
