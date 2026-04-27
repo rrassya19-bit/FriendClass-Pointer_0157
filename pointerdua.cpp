@@ -10,3 +10,9 @@ class Mahasiswa
         cout << "No induk = " << nim << endl;
     }
 };
+
+int main()
+{
+    Mahasiswa * Mhs = new Mahasiswa[1];
+    return 0;
+}
