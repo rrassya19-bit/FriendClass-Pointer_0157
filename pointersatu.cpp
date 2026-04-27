@@ -8,3 +8,9 @@ class Mahasiswa{
         cout<<"No Induk = " << nim << endl;
     }
 };
+
+int main() {
+    Mahasiswa mhs{1};
+    mhs.showNim();
+    return 0;
+}
