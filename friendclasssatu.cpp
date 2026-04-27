@@ -12,3 +12,12 @@ public:
     void Setnama(string pnama);
     friend class Siswa;
 };
+
+class Siswa {
+private:
+    int id;
+
+public:
+    void setid(int pid);
+    void displayAll(Orang &a);
+};
