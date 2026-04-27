@@ -33,3 +33,9 @@ void Orang::Setnama(string pnama) {
 void Siswa::setid(int pid) {
     id = pid;
 }
+
+int main() {
+    Orang joko;
+    Siswa joko_siswa;
+    return 0;
+}
