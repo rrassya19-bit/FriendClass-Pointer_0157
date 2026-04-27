@@ -14,5 +14,6 @@ class Mahasiswa
 int main()
 {
     Mahasiswa * Mhs = new Mahasiswa[1];
+    Mhs->nim = 2;
     return 0;
 }
