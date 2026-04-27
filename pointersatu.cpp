@@ -16,5 +16,7 @@ int main() {
     Mahasiswa& refMhs = mhs;
     refMhs.nim = 2;
     mhs.showNim();
+
+    Mahasiswa* pMhs = &mhs;
     return 0;
 }
